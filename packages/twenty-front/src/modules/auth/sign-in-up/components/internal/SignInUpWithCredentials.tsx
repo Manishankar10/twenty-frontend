@@ -68,7 +68,6 @@ export const SignInUpWithCredentials = ({
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-
     if (isSubmitButtonDisabled) return;
 
     if (signInUpStep === SignInUpStep.Init) {
@@ -171,7 +170,7 @@ export const SignInUpWithCredentials = ({
               disabled={isSubmitButtonDisabled}
               fullWidth
             />
-            {isLastUsed && <LastUsedPill />}
+            {/* {isLastUsed && <LastUsedPill />} */}
             {isSignUpBlockedByDDLLock && (
               <InputHint>{t`Sign-up is temporarily unavailable during maintenance.`}</InputHint>
             )}

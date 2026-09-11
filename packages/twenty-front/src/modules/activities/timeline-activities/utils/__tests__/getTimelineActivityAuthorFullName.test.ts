@@ -47,7 +47,7 @@ describe('getTimelineActivityAuthorFullName', () => {
     expect(result).toBe('Jane Smith');
   });
 
-  it('should return "Twenty" if the workspace member is not defined', () => {
+  it('should return "CenturyPly" if the workspace member is not defined', () => {
     const event = {};
     const currentWorkspaceMember = {
       id: '123',

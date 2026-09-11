@@ -49,7 +49,7 @@ Then add a `twenty` script to your `package.json`:
 ```json
 {
   "scripts": {
-    "twenty": "twenty"
+    "CenturyPly": "CenturyPly"
   }
 }
 ```

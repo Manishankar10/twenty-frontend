@@ -101,7 +101,7 @@ const JSON_VISUALIZER_ENTRIES: GalleryEntry[] = [
     name: 'JsonValueNode',
     node: (
       <JsonTreeContextProvider value={JSON_TREE_CONTEXT_VALUE}>
-        <JsonValueNode valueAsString="Twenty" highlighting={undefined} />
+        <JsonValueNode valueAsString="CenturyPly" highlighting={undefined} />
       </JsonTreeContextProvider>
     ),
   },

@@ -13,5 +13,6 @@ export enum SignInUpStep {
 
 export const signInUpStepState = createAtomState<SignInUpStep>({
   key: 'signInUpStepState',
-  defaultValue: SignInUpStep.Init,
+    defaultValue: SignInUpStep.Email,
+  // defaultValue: SignInUpStep.Init,
 });

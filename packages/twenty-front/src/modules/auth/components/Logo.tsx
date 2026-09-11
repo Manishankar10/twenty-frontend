@@ -17,12 +17,11 @@ type LogoProps = {
 };
 
 const StyledContainer = styled.div`
-  height: ${themeCssVariables.spacing[12]};
-  margin-bottom: ${themeCssVariables.spacing[4]};
+  height: ${themeCssVariables.spacing[20]};
   margin-top: ${themeCssVariables.spacing[4]};
 
   position: relative;
-  width: ${themeCssVariables.spacing[12]};
+  width: ${themeCssVariables.spacing[30]};
 `;
 
 const StyledSecondaryLogo = styled.img`
@@ -46,7 +45,8 @@ const StyledSecondaryLogoContainer = styled.div`
 `;
 
 const StyledPrimaryLogo = styled.div`
-  background-size: cover;
+  background-size: contain;
+  background-repeat : no-repeat;
   height: 100%;
   width: 100%;
 `;

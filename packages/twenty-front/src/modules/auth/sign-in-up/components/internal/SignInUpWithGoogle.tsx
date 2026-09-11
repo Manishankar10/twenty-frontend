@@ -46,7 +46,7 @@ export const SignInUpWithGoogle = ({
 
   return (
     <>
-      <StyledSSOButtonContainer>
+      {/* <StyledSSOButtonContainer>
         <MainButton
           Icon={GoogleIcon}
           title={t`Continue with Google`}
@@ -58,7 +58,7 @@ export const SignInUpWithGoogle = ({
           <LastUsedPill />
         )}
       </StyledSSOButtonContainer>
-      <HorizontalSeparator visible={false} />
+      <HorizontalSeparator visible={false} /> */}
     </>
   );
 };

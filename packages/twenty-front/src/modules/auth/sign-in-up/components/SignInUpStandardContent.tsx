@@ -21,7 +21,7 @@ const StyledFormContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: ${themeCssVariables.spacing[6]};
-  margin-top: ${themeCssVariables.spacing[6]};
+  margin-top: ${themeCssVariables.spacing[1]};
   min-width: 0;
   width: 100%;
 `;
@@ -45,7 +45,8 @@ export const SignInUpStandardContent = ({
     <ModalContent isVerticallyCentered isHorizontallyCentered>
       <AnimatedEaseIn>
         <Logo
-          secondaryLogo={workspacePublicData?.logo}
+          primaryLogo='https://www.centuryply.com/img/logo-new.png'
+          secondaryLogo={ workspacePublicData?.logo}
           placeholder={workspacePublicData?.displayName}
           onClick={onClickOnLogo}
           to={AppPath.SignInUp}
